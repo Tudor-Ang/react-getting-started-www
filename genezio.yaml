@@ -1,16 +1,3 @@
-frontend:
-    path: .
-    publish: dist
-    scripts:
-        build: npm run build
-        deploy:
-            - npm install
-        start:
-            - npm install
-            - npm run dev
-    sdk:
-        language: ts
-    subdomain: react-getting-started-www
-name: react-getting-started-www
+name: react-getting-started-wwwdada
 region: us-east-1
 yamlVersion: 2
